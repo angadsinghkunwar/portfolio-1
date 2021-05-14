@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me </a></li>
+                        <div class="container">
+                                    <li><a href="#">Contact Me </a>
+                                        <div class="overlay">
+                                            <ul class="nav-list">
+                                                <li><a href="mailto:angadsinghkunwar@gmail.com">Send email</a></li>
+                                                <li><a href="https://www.linkedin.com/in/angad-singh-35bb891a0/">Linkdin</a></li>
+                                            </ul>
+                                     </div>
+                                    </li>   
+                        </div>  
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <div class="box-1">
+            <article class="intro">
+                 <h1>Hi,Im Angad Singh</h1>
+                <h3>Im a Jr.Web Developer</h3>
+            </article>
+        </div>
+    </div>
+    <div class="box-2">
+            <h3>About Me</h3>
+            <p>I'm B.A Prog Graduate</p>
+            <p>Learing Web Developer from Frontend Master Bootcamp</p>
+    </div>
+    
+    <div class="swiper-container">
+        <h2>My Basic Skills</h2>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./HTML5.png" alt="html" ></div>
+            <div class="swiper-slide"><img src="./CSS3.png" alt="css3" ></div>
+            <div class="swiper-slide"><img src="./Javascript.png" alt="js" ></div>
+        </div>
+    </div>
+    <div class="swiper-button-prev"onclick="window.swiper.slidePrev()"></div>
+    <div class="swiper-button-next" on  click="window.swiper.slideNext()"></div>
+    <footer class="last">
+    <p>You can also conncet me on 
+    <div class="picture">
+        <a href="https://www.instagram.com/angad.singh.3762/?hl=en"><img src="./instagram-logo-icon-png-13580.png" alt="instagram"></a>
+        
+        <a href="https://github.com/angadsinghkunwar"><img src="./github-logo (1).png" alt="my github"></a>
+    </div> 
+    </p>
+    </footer>
+    <script src="https://unpkg.com/popmotion@9.3.1/dist/popmotion.global.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+   <script src="./portfolio.js"></script>
+</body>
+</html>
