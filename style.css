@@ -6,7 +6,8 @@ body{
   padding:0;
   margin:0;
   width: auto;
-  height: 100px;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 .wrapper{
@@ -17,26 +18,26 @@ body{
   background-position: center;
   margin:0%;
   padding: 1%;
-  min-height: 616%; 
+  height: 117vh; 
 }
 
 .box-2{
   background-image: url(./Footer-Background-2.jpg);
   background-attachment: fixed;
   color:white;
+  height: 35vh;
   font-size: 25px;
   text-align:center;
   margin-bottom:15%;
   margin-top: 0%;
   margin-left: 0%;
-  margin-right:auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  text-align: center;
   font-family: 'Itim', cursive;
 }
 .box-2 h3{
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%); 
 }
+
 .swiper-container{
   background-image: url("./material-design-colorful-edges.jpg");
   height: 100vh;
@@ -78,7 +79,7 @@ article.intro{
   margin-top: 104px;
 }
 .swiper-wrapper{
-  width: 100%;
+  width: auto;
 }
 .swiper-slide{
   text-align:center;
@@ -201,67 +202,253 @@ height: 50%;
 footer p{
   font-size: 22px;
   letter-spacing: 3px;
+  color:white;
 }
+
 /*mobile query*/
 
-@media screen and (min-width:360px){
+@media screen and (min-width:326px){
   body{
-    width:100%;
-    height: 100px;
+    width:auto;
+    height: auto;
   }
-  
-}
-@media  (min-width:360px){
-  .box-2 p{width:100%;
-    font-size:20px;
-  }
-  .box-2{width:100%;
-    font-family: 'Itim', cursive;
-    font-size: 25px;
-    text-align:center;
-    
-  }
-  .box-2 p:hover{
-    transform: scale(1.2);
-  }
-  /*.swiper-container h2{
-    position: absolute;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%); 
-  }*/
- /* .swiper-slide{
-    text-align:center;
-    margin-top: 110px;
-  }*/
   .swiper-slide img {
-    height: 50%;
+    height: 45vh;
+    margin-top:51%;
   }
-   img{
+  img{
     height:50%;
   }
-  .swiper-container {width:100%;
-    background-image: url("./material-design-colorful-edges.jpg");
-    height: 100vh;
+  .swiper-container {
+   background-image: url("./material-design-colorful-edges.jpg");
+    height: 90vh;
     margin-top: -12.9%;
     background-size:cover;
     background-attachment: fixed;
   }
-  
-  @media  (min-width:360px){
-    ul {
-      display:flex
-      justify-content:space-between;
-      font-size: 13px;
-      padding-left: 24%;
-      background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-      transition: all;
-    }
-  }  
+  ul{
+    display: flex;
+    justify-content:space-between;
+    font-size: 10px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    transition: all;
+  }
   ul.nav-list{
     flex-direction: column;
   }
-}
-@media screen(min-width:360px) {
-  .swiper-slide img{
-    margin-top:25%;
+  h2{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%); 
+    font-size:25px;
+  }
+  .box-2{
+    background-image: url(./Footer-Background-2.jpg);
+    background-attachment: fixed;
+    color:white;
+    height: 40vh;
+    font-size: 25px;
+    text-align:center;
+    margin-bottom:17%;
+    margin-top: -4%;
+    margin-left: 0%;
+    font-family: 'Itim', cursive;
   }
 }
+@media screen and (min-width:576px){
+  body{
+    width:auto;
+    height: auto;
+  }
+  .swiper-slide img {
+    height: 52vh;
+    margin-top:29%;
+  }
+  img{
+    height:50%;
+  }
+  .swiper-container {
+   background-image: url("./material-design-colorful-edges.jpg");
+    height: 90vh;
+    margin-top: -12.9%;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  ul{
+    display: flex;
+    justify-content:space-between;
+    font-size: 18px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    transition: all;
+  }
+  ul.nav-list{
+    flex-direction: column;
+  }
+  h2{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%); 
+  }
+  .box-2{
+    background-image: url(./Footer-Background-2.jpg);
+    background-attachment: fixed;
+    color:white;
+    height: 40vh;
+    font-size: 25px;
+    text-align:center;
+    margin-bottom:14%;
+    margin-top: -4%;
+    margin-left: 0%;
+    font-family: 'Itim', cursive;
+  }
+} 
+
+@media screen and (min-width:728px){
+  body{
+    width:auto;
+    height: 100vh;
+  }
+  .swiper-slide img {
+    height: 55vh;
+    margin-top:21%;
+  }
+  img{
+    height:50%;
+  }
+  .swiper-container {
+   background-image: url("./material-design-colorful-edges.jpg");
+    height: 90vh;
+    margin-top: -12.9%;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  ul{
+    display: flex;
+    justify-content:space-between;
+    font-size: 23px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    transition: all;
+  }
+  ul.nav-list{
+    flex-direction: column;
+  }
+  h2{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%); 
+    font-size: 30px;
+  }
+  .box-2{
+    background-image: url(./Footer-Background-2.jpg);
+    background-attachment: fixed;
+    color:white;
+    height: 40vh;
+    font-size: 25px;
+    text-align:center;
+    margin-bottom:17%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-family: 'Itim', cursive;
+  }
+  h2{
+    text-align: center;
+    
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%); 
+  }
+}   
+@media screen and (min-width:996px){
+  body{
+    width:autovw;
+    height: 100vh;
+  }
+  .swiper-slide img {
+    height: 62vh;
+    margin-top:13%;
+  }
+  img{
+    height:50%;
+  }
+  .swiper-container {
+   background-image: url("./material-design-colorful-edges.jpg");
+    height: 90vh;
+    margin-top: -12.9%;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  ul{
+    display: flex;
+    justify-content:space-between;
+    font-size: 30px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    transition: all;
+  }
+  ul.nav-list{
+    flex-direction: column;
+  }
+  h2{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%); 
+    font-size: 35px;
+  }
+  .box-2{
+    background-image: url(./Footer-Background-2.jpg);
+    background-attachment: fixed;
+    color:white;
+    height: 40vh;
+    font-size: 25px;
+    text-align:center;
+    margin-bottom:16%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-family: 'Itim', cursive;
+  }
+}   
+@media screen and (min-width:1280px){
+  body{
+    width:auto;
+    height: 100vh;
+  }
+  .swiper-slide img {
+    height: 62vh;
+    margin-top:13%;
+  }
+  img{
+    height:50%;
+  }
+  .swiper-container {
+   background-image: url("./material-design-colorful-edges.jpg");
+    height: 90vh;
+    margin-top: -12.9%;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  ul {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 24%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    transition: all;
+  }
+  ul.nav-list{
+    flex-direction: column;
+  }
+  h2{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%); 
+  }
+      
+  .box-2{
+  background-image: url(./Footer-Background-2.jpg);
+  background-attachment: fixed;
+  color:white;
+  height: 35vh;
+  font-size: 25px;
+  text-align:center;
+  margin-bottom:15%;
+  margin-top: 0%;
+  margin-left: 0%;
+  text-align: center;
+  font-family: 'Itim', cursive; 
+  } 
+  
+}   
