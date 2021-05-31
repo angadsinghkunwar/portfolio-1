@@ -524,4 +524,11 @@ footer p{
     padding: 1%;
     height: 43vh; 
   }
+  .picture a{
+  flex-basis: 5%;
+}
+.picture img{
+  width:30px;
+  height:30px;
+}
 }
