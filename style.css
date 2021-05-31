@@ -452,3 +452,68 @@ footer p{
   } 
   
 }   
+ 
+/* nokia 8.1*/
+@media screen and (max-width:1080px){
+  body{
+    width:auto;
+    height: 100vh;
+  }
+  .swiper-slide img {
+    height: 30vh;
+    margin-top:13%;
+  }
+  img{
+    height:50%;
+  }
+  .swiper-container {
+   background-image: url("./material-design-colorful-edges.jpg");
+    height: 50vh;
+    margin-top: -12.9%;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  ul {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 24%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    transition: all;
+  }
+  ul.nav-list{
+    flex-direction: column;
+  }
+  h2{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%); 
+  }
+      
+  .box-2{
+  background-image: url(./Footer-Background-2.jpg);
+  background-attachment: fixed;
+  color:white;
+  height: 13vh;
+  font-size: 25px;
+  text-align:center;
+  margin-bottom:15%;
+  margin-top: 0%;
+  margin-left: 0%;
+  text-align: center;
+  font-family: 'Itim', cursive; 
+  } 
+  
+  .wrapper{
+    background-image: url("./mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin:0%;
+    padding: 1%;
+    height: 43vh; 
+  }
+}
+
