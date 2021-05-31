@@ -195,14 +195,24 @@ a {
 .last img{
 height: 50%;
 }
+.picture{
+  display: flex;
+  justify-content: center;
+
+}
+.picture a{
+  flex-basis: 5%;
+}
 .picture img{
   width:30px;
   height:30px;
 } 
 footer p{
+  display: flex;
   font-size: 22px;
   letter-spacing: 3px;
   color:white;
+  justify-content: center;
 }
 
 /*mobile query*/
@@ -214,7 +224,7 @@ footer p{
   }
   .swiper-slide img {
     height: 45vh;
-    margin-top:51%;
+    margin-top:27%;
   }
   img{
     height:50%;
@@ -452,7 +462,6 @@ footer p{
   } 
   
 }   
- 
 /* nokia 8.1*/
 @media screen and (max-width:1080px){
   body{
@@ -509,11 +518,10 @@ footer p{
     background-image: url("./mountains.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; 
     background-position: center;
     margin:0%;
     padding: 1%;
     height: 43vh; 
   }
 }
-
