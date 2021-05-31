@@ -525,7 +525,7 @@ footer p{
     height: 43vh; 
   }
   .picture a{
-  flex-basis: 5%;
+  flex-basis: 10%;
 }
 .picture img{
   width:30px;
